@@ -32,9 +32,9 @@ from streamlit_option_menu import option_menu
 #     st.title(f'You have selected {selected}')
 # https://www.youtube.com/watch?v=saOv9z6Fk88
 
-def clean_text(text) :
-    text = text.replace("`", "").replace("-\n", "").replace("\n", " ").replace("#", "/").strip()
-    return (text)
+# def clean_text(text) :
+#     text = text.replace("`", "").replace("-\n", "").replace("\n", " ").replace("#", "/").strip()
+#     return (text)
 
 st.title('dsds')
 st.sidebar.header('Options')
